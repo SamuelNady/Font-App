@@ -1,0 +1,60 @@
+.pa {
+    display: flex;
+    justify-content: space-around;
+}
+
+textarea,
+.playground {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+textarea {
+    width: 45%;
+    height: 500px;
+}
+
+.playground {
+    word-wrap: break-word;
+    width: 45%;
+    height: 500px;
+    color: #fff;
+    background-color: rgb(36, 36, 36);
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+body > div:last-of-type {
+    text-align: center;
+}
+
+div button {
+    background-color: #8a2be2;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.f1 {
+    font-family: 'Lobster Two', sans-serif;    
+}
+.f2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+.f3 {
+    font-family: 'Wallpoet', sans-serif;
+}
+.f4 {
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+}
